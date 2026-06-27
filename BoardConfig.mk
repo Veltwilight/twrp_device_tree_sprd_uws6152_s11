@@ -112,7 +112,7 @@ TW_HAS_MTP := true
 TW_MTP_DEVICE := /dev/mtp_usb
 
 # TWRP Configuration
-TW_THEME := watch_mdpi
+TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
@@ -127,5 +127,5 @@ TW_DEFAULT_LANGUAGE := zh_CN
 
 # Touchscreen orientation fix
 RECOVERY_TOUCHSCREEN_SWAP_XY := false
-RECOVERY_TOUCHSCREEN_FLIP_X := false
-RECOVERY_TOUCHSCREEN_FLIP_Y := false
+RECOVERY_TOUCHSCREEN_FLIP_X := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
